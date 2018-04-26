@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>modelo bajo incertidunbre</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body background="img/l.jpg">
+	<div id="header">
+			<center><ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Analisis de decisiones bajo certidumbre</a>
+					<ul>
+						<li><a href="definicion.html">Definicion</a></li>
+						<li><a href="Modelos.html">Modelos </a></li>
+			
+						
+					</ul>
+				</li>
+				<li><a href="">Analisis de decisiones bajo incertidumbre</a>
+					<ul>
+						<li><a href="define1.html">Definicion</a></li>
+						<li><a href="Modelo2.html">Modelos </a></li>
+				
+					</ul>
+				</li>
+				<li><a href="">Analisis de decisiones bajo riesgos</a>
+					<ul>
+						<li><a href="define2.html">Definicion</a></li>
+						<li><a href="Modelo3.html">Modelos </a></li>
+						
+						
+					</ul>
+				</li>
+			</ul></center>
+		</div>
+	<div class="contenedor divs">
+		<p>	
+1)	<b>Criterio de Hurwicz:</b> Se trata de un criterio intermedio entre el criterio de Wald y el criterio 	Maximax. Dado que muy pocas personas son tan extremadamente pesimistas u optimistas como sugieren dichos criterios, Hurwicz (1951) considera que el decisor debe ordenar las alternativas de acuerdo con una media ponderada de los niveles de seguridad y optimismo:<br>
+donde a es un valor específico elegido por el decisor y aplicable a cualquier problema de decisión abordado por él, por lo que T(ai) = asi + (1-a)oi. Así, la regla de decisión de Hurwicz resulta ser:<br>
+	Los valores de a próximos a 0 corresponden a un pensamiento optimista, obteniéndose en el caso extremo a=0 el criterio Maximax,
+	Los valores de a próximos a 1 corresponden a un pensamiento pesimista, obteniéndose en el caso extremo a=1 el criterio de Wald.<br><br>
+
+2)	<b>Criterio de Savage:</b> En 1951 Savage argumenta que al utilizar los valores xij para realizar la elección, el decisor compara el resultado de una alternativa bajo un estado de la naturaleza con todos los demás resultados, independientemente del estado de la naturaleza bajo el que ocurran. Sin embargo, el estado de la naturaleza no es controlable por el decisor, por lo que el resultado de una alternativa sólo debería ser comparado con los resultados de las demás alternativas bajo el mismo estado de la naturaleza. <br>
+Con este propósito Savage define el concepto de pérdida relativa o pérdida de oportunidad rij asociada a un resultado xij como la diferencia entre el resultado de la mejor alternativa dado que ej es el verdadero estado de la naturaleza y el resultado de la alternativa ai bajo el estado ej:<br>
+ 
+Así, si el verdadero estado en que se presenta la naturaleza es ej y el decisor elige la alternativa ai que proporciona el máximo resultado xij, entonces no ha dejado de ganar nada, pero si elige otra alternativa cualquiera ar, entonces obtendría como ganancia xrj y dejaría de ganar xij-xrj.<br>
+Savage propone seleccionar la alternativa que proporcione la menor de las mayores pérdidas relativas, es decir, si se define ri como la mayor pérdida que puede obtenerse al seleccionar la alternativa ai,
+ 
+el criterio de Savage resulta ser el siguiente:<br>
+ 
+Conviene destacar que, como paso previo a la aplicación de este criterio, se debe calcular la matriz de pérdidas relativas, formada por los elementos rij. Cada columna de esta matriz se obtiene calculando la diferencia entre el valor máximo de esa columna y cada uno de los valores que aparecen en ella. <br>
+En el siguiente enlace que dejare a continuación podrán ver ejemplos tanto de Hurwicz y Savage:<a href="https://www.youtube.com/watch?v=xKaX_YDlCi8 ">Hurwicz y Savage</a><br><br>
+
+
+		</p>
+	</div>
+
+</body>
+</html>
